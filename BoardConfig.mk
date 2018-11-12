@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/tama/PlatformConfig.mk
+include device/sony/tama-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %h8314,$(TARGET_PRODUCT)))
